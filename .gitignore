@@ -1,0 +1,19 @@
+# Private diagnostics and generated configuration must stay local.
+work/
+backups/
+logs/
+*.log
+*.bak
+*.generated.toml
+config.toml
+.mcp.json
+auth.json
+.env
+.env.*
+MACHINE.md
+*.sqlite*
+*.png
+*.jpg
+*.jsonl
+node_modules/
+__pycache__/
